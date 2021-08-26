@@ -1,0 +1,39 @@
+
+#header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#logo{
+    flex: 3;
+}
+.cours{
+    flex: 1;
+}
+
+.sujet{
+    visibility: hidden;
+    position: absolute;
+    padding-top: 1%;
+}
+#sujet{
+    height: 80vh;
+    
+}
+.sujet1{
+    visibility: visible;
+}
+
+.p_1, .p_2{
+    width: 70%;
+    line-height: 1.2;
+    font-size: x-large;
+}
+.p_img{
+    padding: 2.5%;
+}
+.footer_links {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
